@@ -61,7 +61,6 @@ function App() {
                   setKatak(new_katak);
 
                   const checkWin = (player) => {
-                    // Qatorlar
                     if (
                       (new_katak[0].value === player &&
                         new_katak[1].value === player &&
@@ -76,7 +75,6 @@ function App() {
                       return true;
                     }
 
-                    // Ustunlar
                     if (
                       (new_katak[0].value === player &&
                         new_katak[3].value === player &&
@@ -91,7 +89,6 @@ function App() {
                       return true;
                     }
 
-                    // Diagonal
                     if (
                       (new_katak[0].value === player &&
                         new_katak[4].value === player &&
