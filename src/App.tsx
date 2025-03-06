@@ -60,7 +60,7 @@ function App() {
 
                   setKatak(new_katak);
 
-                  const checkWin = (player) => {
+                  const checkWin = (player: string) => {
                     if (
                       (new_katak[0].value === player &&
                         new_katak[1].value === player &&
